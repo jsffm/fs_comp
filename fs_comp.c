@@ -108,7 +108,8 @@ void main(int argc, char **argv)
     double s;
 
     if (argc == 1) {
-	printf("fs_comp dir1 dir2\n\nDen Inhalt zweier Ordner vergleichen.\n");
+	printf("fs_comp dir1 dir2\n\nCompares two filesystems or directories.\n");
+	printf("\nWritten by jsffm\n");
 	exit(0);
 	}
     t1 = time(NULL);
